@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Pricing from "./components/Pricing";
+import SkillSection from "./components/SkillSection";
 import Projects from "./components/Projects";
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
-        <Pricing />
+        <SkillSection />
         <Projects />
         <Blogs />
         <Contact />

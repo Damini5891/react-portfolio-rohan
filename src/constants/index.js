@@ -95,7 +95,7 @@ export const roadmap = [
   },
 ];
 
-export const pricing = [
+export const skills = [
   {
     id: "0",
     imageUrl: analysis,

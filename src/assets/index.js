@@ -40,11 +40,11 @@ import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
-import analysis from "./pricing/analysis.jpg";
-import content from "./pricing/content.jpeg";
-import developement from "./pricing/development.avif";
+import lines from "./skillset/lines.svg";
+import stars from "./skillset/stars.svg";
+import analysis from "./skillset/analysis.jpg";
+import content from "./skillset/content.jpeg";
+import developement from "./skillset/development.avif";
 
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";

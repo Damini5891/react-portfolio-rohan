@@ -1,7 +1,7 @@
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
-import PricingList from "./PricingList";
+import SkillSet from "./Skillset";
 
 const Pricing = () => {
   return (
@@ -29,7 +29,7 @@ const Pricing = () => {
         <Heading tag="My Service and work i do" title="What all things I do" />
 
         <div className="relative">
-          <PricingList />
+          <SkillSet />
         </div>
 
         <div className="flex justify-center mt-10">

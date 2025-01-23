@@ -1,9 +1,9 @@
-import { pricing } from "../constants";
+import { skills } from "../constants";
 
-const PricingList = () => {
+const SkillSet = () => {
   return (
     <div className="flex flex-wrap justify-center gap-4 max-w-screen-lg mx-auto">
-      {pricing.map((item) => (
+      {skills.map((item) => (
         <div
           key={item.id}
           className="flex flex-col items-center w-[calc(33.33% - 1rem)] max-w-[19rem] px-6 py-8 bg-n-8 border border-n-6 rounded-[2rem] text-center [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
@@ -23,4 +23,4 @@ const PricingList = () => {
   );
 };
 
-export default PricingList;
+export default SkillSet;
